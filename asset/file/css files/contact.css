@@ -1,0 +1,151 @@
+
+
+*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				scroll-behavior: smooth;
+}
+.Home{
+				width: 100%;
+				height: 600px;
+				background: #05253a;
+}
+/*-------------------menu------------------------*/
+.menu-bar{
+				width: 100%;
+				height: 60px;
+				position: fixed;
+}
+.logo{
+				width: 100%;
+				height: 100%;
+				background: url('../../img/logo.png');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 115% 115%;
+}
+
+header{
+				position: relative;
+				width: 100%;
+				min-height: 66px;
+				padding: 10 10px;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+}
+header ul{
+				position: relative;
+}
+header ul li{
+				list-style: none;
+				position: relative;
+				float: left;
+}
+header ul li a{
+				text-decoration: none;
+				color: #ffff;
+				font-size: 1.1rem;
+				padding: 10px 25px;
+				display: flex;
+				justify-content: space-between;
+}
+header ul li a:hover{
+				background: #2b93e3;
+}
+
+
+header ul li ul{
+				position: absolute;
+				left: 0;
+				width: 200px;
+				background: #445964;
+				display: none;
+}
+header ul li:hover > ul{
+				display: block;
+}
+header ul li ul li{
+				position: relative;
+				width: 100%;
+				border: 1px solid rgba(0,0,0,0.2);
+}
+header ul li ul li ul{
+				top: 0;
+				left: 200px;
+}
+
+.search-box{
+				width: 250px;
+				height: 30px;
+				color: white;
+				background: #05253a;
+				border: 1px solid #ff9d00;
+				padding: 5px;
+				position: relative;
+				right: -60%;
+				top: 10px;				
+}
+.login-icon {
+     width: 50px;
+     height: 50px;
+     color: white;
+     position: relative;
+}
+
+.Contact{
+				width: 100%;
+				height: 700px;
+				/* border: 1px solid #ffcaaa; */
+				background: #05253a;
+				padding-top: 100px;
+}
+.Contact-box{
+				width: 400px;
+				margin: 20px 0px 0px 30%;
+}
+
+.Contact h1{
+  		 color: white;	
+			 font-size: 40px;
+			 text-transform: uppercase;
+			 padding-top: 40px;
+     display: flex;
+     justify-content: center;
+}
+.Contact h3{
+				color: white;
+				margin: 10px 0px 10px 0px;
+				text-transform: uppercase;
+}
+.Contact textarea{
+				width: 400px;
+				height: 130px;
+				font-size: 19px;
+				background: #05253a;
+				border: 2px solid #0096ff;
+				color: white;
+				padding: 4px 4px 4px 5px;
+}
+
+.frm-text{
+				width: 400px;
+				height: 40px;
+				font-size: 19px;
+				background: #05253a;
+				border: 2px solid #0096ff;
+				color: white;
+				padding: 4px 4px 4px 5px;
+}
+.frm-btn{
+				width: 160px;
+				height: 40px;
+				font-size: 20px;
+				font-style: italic;
+				border: 2px solid #175b88;
+				margin: 10px 5px 0px 25px;
+				border-radius: 10px;
+				color: white;
+				background: #05253a;
+}
